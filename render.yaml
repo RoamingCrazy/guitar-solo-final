@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tab-gen-backend
+    env: python
+    buildCommand: cd backend && pip install flask
+    startCommand: cd backend && python app.py
